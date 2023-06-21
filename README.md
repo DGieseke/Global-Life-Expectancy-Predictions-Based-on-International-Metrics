@@ -1,7 +1,7 @@
 
 <img src="https://www.york.ac.uk/media/research/images/impactcasestudiesgeneral/global-health-challenges800x400.jpg" alt="Global Health Image" title="Global Health  Image">
 
-# Life Expectancy at Birth and International Metrics
+# Predicting Life Expectancy at Birth with International Metrics
 *Seamus Walsh and Daniel Gieseke  |  June 23, 2023*
 
 ## Overview
