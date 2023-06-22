@@ -19,10 +19,12 @@ Life expectancies vary over countries globally. With this project we are aiming 
 ## Business and Data Understanding
 For this project we play the role of world health advisors to nation leaders. It should be a foundational goal of all leaders to provide a sufficient quality of life for their citizens. Life expectancy has long been a crucial indicator of the overall health and well-being of the population, and can serve as a measure of a country’s quality of life. There are many factors that contribute to life expectancy:
 <ul>
-  <li>It's wealth, education, energy usage, and political governance among other things.</li>
-  <li>Using data provided by The World Bank and the United Nations, we've provided several data-drive strategies to increase life expectancy across the globe.</li>
+  <li>Wealth</li>
+<li>Education</li>
+<li>Energy Production and Consumption</li>
+<li>Political Governance</li>  
 </ul>
-
+Using data provided by The World Bank and the United Nations, we've provided several data-drive strategies to increase life expectancy across the globe.
 
 ## Data Analysis
 For our analyses we sought to predict and classify life expectancies at either above or below 70 years, which is the mean age of life expectancies across our data. We then looked at the biggest contributers to a higher life expectancy to advise countries on where they should provide interventions in order to improve their outcomes.
@@ -75,6 +77,8 @@ Below you can see a confusion matrix showing the results of our final model.
   <b>daniel folder</b> This folder houses Daniel's working documents.
 
   <b>seamus folder</b> This folder houses Seamus's working documents.
+
+  <b>data folder</b> This folder houses the .csv files we used to create these analyses.
   
   <b>Predicting Global Life Expectancy - Slide Deck</b> This file is a slide deck covering our analysis.
 
