@@ -27,35 +27,35 @@ For this project we play the role of world health advisors to nation leaders. It
 ## Data Analysis
 For our analyses we sought to predict and classify life expectancies at either above or below 70 years, which is the mean age of life expectancies across our data. We then looked at the biggest contributers to a higher life expectancy to advise countries on where they should provide interventions in order to improve their outcomes.
 
-## Baseline Model
+## Exploratory Analysis
 After doing all of the necessary data cleaning, we started to explore features. Below, you can see our features of interest by correlation to Life Expectancy at Birth. Note, this visualization includes the correlation between columns with discrete data as our categorical columns may not provide the most insight here. From the below visualization, we see that "Access to Electricity", "GDP per Capita" and "Percent of Urban Population" are the features most correlated with Life Expectancy at Birth.
 
 Below are visualizations that we believe shed light on these points.  For additional narratives and context, please see our jupyter notebook file.
 
+**Relationship Between Life Expectancy at Birth and Access to Electricity**
+![image](https://github.com/DGieseke/Global-Life-Expectancy-Predictions-Based-on-International-Metrics/assets/32468677/5594c4a8-9e4d-44d4-b552-e2bcefb41358)
 
-**Relationship between Production Budget, Worldwide Gross, and Return on Investment**
-![image](https://github.com/DGieseke/Exploratory-Data-Analysis-Using-Movie-Data/assets/130595612/b6cde90d-de0f-4b3e-966e-e1247264852d)
-*An increase in a production budget historically shows an increase in worldwide gross, however an increase in production budget has little to no effect on overall return on investment.*
+**Relationship Between Life Expectancy at Birth and the Percent of a Population in Urban Areas**
+![image](https://github.com/DGieseke/Global-Life-Expectancy-Predictions-Based-on-International-Metrics/assets/32468677/a3c86680-bb03-4d01-bb35-f9aa11cee7c2)
 
 
-**Genres by Audience Favorability and Return on Investment**
-![image](https://github.com/DGieseke/Exploratory-Data-Analysis-Using-Movie-Data/assets/130595612/31b5b674-e51b-4b89-b2b7-3956506cd488)
-![image](https://github.com/DGieseke/Exploratory-Data-Analysis-Using-Movie-Data/assets/130595612/d26653b5-f054-45f8-8563-6f4b0dfba525)
-![image](https://github.com/DGieseke/Exploratory-Data-Analysis-Using-Movie-Data/assets/130595612/ff4e156e-e4ed-456f-ad32-3e8d3bcd7238)
-*In comparing the graphs, we believe it may be worthwhile for a company to pursue a genre with high average rating as well as high average return on investment. We suggest a company entering the movie industry pursue movies in the 'animation' genre as these films yield high median audience ratings as well as high return on investments.*
+## Baseline Model
+For our first model, we started with a simple Logistic Regression. We received a training accuracy score of .92 and a test accuracy of .91. We chose to look at the accuracy score because we had a fairly even balance in our target classifier. For a first model, this looks pretty good!
 
-**Relationship between Movie Release Month and Return on Investment**
-![image](https://github.com/DGieseke/Exploratory-Data-Analysis-Using-Movie-Data/assets/130595612/a3343dd7-2cf9-4fdf-90a6-103afcf7b8e0)
-![image](https://github.com/DGieseke/Exploratory-Data-Analysis-Using-Movie-Data/assets/130595612/21627e14-1fe5-4bdd-8dd4-ad6a30b77bda)
-![image](https://github.com/DGieseke/Exploratory-Data-Analysis-Using-Movie-Data/assets/32468677/f031e473-05a3-4c8b-afd1-29fc029fd9a2)
-![image](https://github.com/DGieseke/Exploratory-Data-Analysis-Using-Movie-Data/assets/32468677/9a75a993-fa5e-4e15-bafb-d462dbc9a890)
-*Based on our analysis of this data, we believe July to be the best month to release an animated movie to see a higher ROI and a safer month to choose for a company entering the movie industry. Although June looks like a better month, overall, when removing outliers, we see that the ROI is not quite as strong compared with some other months. So we went a step further with our third chart to map out ROIs specifically for animated movies, and found July to have the strongest ROI. Then looking specifically at July ROI's across genre's this doubles down on our findings above that a company looking to enter the market and plan for a July release should focus on the 'animation' genre. Horror being the only genre with a higher ROI in July, but as we saw earlier, much poorer ratings.*
+## Secondary Model
+For our second model, we chose to use a Random Forest Classifier with default hyperparameters. We chose this model because it is simple to interpret, can run very fast, is less prone to over fitting, and can provide us information on feature importance.
 
-**Market Share by Genre Overtime**
-![image](https://github.com/DGieseke/Exploratory-Data-Analysis-Using-Movie-Data/assets/130595612/30f9c117-ee96-4af2-8a77-5847732195ea)
-*Animation proves to be an optimal choice for investment given its growing market share*
+For our second model, we received a training accuracy score of 1, and a test accuracy score of .98. A big improvement from our initial model.
 
-## Recommendations
+## Final Model
+For our final model, we wanted to piggy back on the success of our Random Forest classifier by trying to tune several hyperparameters using Grid Search. We specifically tuned the max depth, minimum samples to split, and minimum samples in a leaf parameters. 
+
+After tuning, our final model received a training accuracy score of 1, and a test accuracy score of .98. Although our test score didn't increase, we are happy with our model now that we've confirmed the best levels of our hyperparameters.
+
+Below you can see a confusion matrix showing the results of our final model.
+![image](https://github.com/DGieseke/Global-Life-Expectancy-Predictions-Based-on-International-Metrics/assets/32468677/e08972dd-aa25-4970-830b-1203e73da3e4)
+
+## Feature Importance and Recommendations
 <ul>
 <li>Recommend lower production budget because of less ROI as budget increases
 <ul class="square">
