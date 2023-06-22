@@ -57,7 +57,7 @@ Below you can see a confusion matrix showing the results of our final model.
 
 ## Feature Importance and Recommendations
 <ul>
-<li>Recommend lower production budget because of less ROI as budget increases
+<li>After exploring the feature importances of our final model we are giving 2 recommendations to nation leaders:
 <ul class="square">
   <li>3 potential genres (Animation, Horror, Sci-Fi)</li>
   <li>Initial analysis showed that Horror was also very high in ROI, but when looking at median average rating, it is the lowest ( so people don’t like those movies as much) whereas Animation was one of the highest</li></ul>
