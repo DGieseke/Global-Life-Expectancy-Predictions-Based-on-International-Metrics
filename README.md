@@ -59,9 +59,9 @@ Below you can see a confusion matrix showing the results of our final model.
 <ul>
 <li>After exploring the feature importances of our final model we are giving 2 recommendations to nation leaders:
 <ul class="square">
-  <li>3 potential genres (Animation, Horror, Sci-Fi)</li>
-  <li>Initial analysis showed that Horror was also very high in ROI, but when looking at median average rating, it is the lowest ( so people don’t like those movies as much) whereas Animation was one of the highest</li></ul>
-<li>Release movie in June
+  <li>Invest in Electrical Infrastructure</li>
+  <li>Access to electricity proved to be the biggest weight in our predictive model. The more access people have to electricity, the greater the population's life expectancy</li></ul>
+<li>Develop Urban Hubs
  <ul class="square">
    <li>Recommending the Animation genre</li>
    <li>Specifically an animated movie in June based on the previous explained analysis</li></ul>
