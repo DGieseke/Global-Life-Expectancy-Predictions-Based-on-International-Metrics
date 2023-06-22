@@ -16,23 +16,19 @@ Life expectancies vary over countries globally. With this project we are aiming 
 
 <a href="https://www.imdb.com/">Data Source: IMDB</a>
 
-## Business Understanding
+## Business and Data Understanding
 For this project we play the role of world health advisors to nation leaders. It should be a foundational goal of all leaders to provide a sufficient quality of life for their citizens. Life expectancy has long been a crucial indicator of the overall health and well-being of the population, and can serve as a measure of a country’s quality of life. There are many factors that contribute to life expectancy:
 <ul>
   <li>It's wealth, education, energy usage, and political governance among other things.</li>
   <li>Using data provided by The World Bank and the United Nations, we've provided several data-drive strategies to increase life expectancy across the globe.</li>
 </ul>
 
-## Data Understanding
-As we set out to explore relevant data, we imported several data sets from reputable media organizations and narrowed down our data sets by metrics we aimed to measure.  After importing data sets from Rotten Tomatoes, IMDB, Box Office Mojo, and The Numbers, we chose sets from IM.DB and The Numbers.  We imported both data sets into pandas data frames, cleaned data to ensure numerical values were readable as integers, dropped null and messy data, and for several visualizations we merged the data frames to compare 'genre', 'budget', and 'return on investment' data.
 
 ## Data Analysis
-For our analyses we sought to answer and hone in on the three topics mentioned above:
-<ul>
-  <li>Amount of money to invest to receive the highest return on investment.</li>
-  <li>Genre to invest in to receive the highest audience favorability and return on investment.</li>
-  <li>Optimal time of year for movie releases.</li>
-</ul>
+For our analyses we sought to predict and classify life expectancies at either above or below 70 years, which is the mean age of life expectancies across our data. We then looked at the biggest contributers to a higher life expectancy to advise countries on where they should provide interventions in order to improve their outcomes.
+
+## Baseline Model
+After doing all of the necessary data cleaning, we started to explore features. Below, you can see our features of interest by correlation to Life Expectancy at Birth. Note, this visualization includes the correlation between columns with discrete data as our categorical columns may not provide the most insight here. From the below visualization, we see that "Access to Electricity", "GDP per Capita" and "Percent of Urban Population" are the features most correlated with Life Expectancy at Birth.
 
 Below are visualizations that we believe shed light on these points.  For additional narratives and context, please see our jupyter notebook file.
 
