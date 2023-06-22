@@ -14,7 +14,6 @@ Life expectancies vary over countries globally. With this project we are aiming 
 
 <a href="https://www.kaggle.com/datasets/truecue/worldsustainabilitydataset?select=WorldSustainabilityDataset.csv">Data Source: The World Bank and United Nations' Sustainability Data via Kaggle</a>
 
-<a href="https://www.imdb.com/">Data Source: IMDB</a>
 
 ## Business and Data Understanding
 For this project we play the role of world health advisors to nation leaders. It should be a foundational goal of all leaders to provide a sufficient quality of life for their citizens. Life expectancy has long been a crucial indicator of the overall health and well-being of the population, and can serve as a measure of a country’s quality of life. There are many factors that contribute to life expectancy:
