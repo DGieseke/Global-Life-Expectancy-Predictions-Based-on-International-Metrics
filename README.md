@@ -58,7 +58,8 @@ Below you can see a confusion matrix showing the results of our final model.
 ![image](https://github.com/DGieseke/Global-Life-Expectancy-Predictions-Based-on-International-Metrics/assets/32468677/e08972dd-aa25-4970-830b-1203e73da3e4)
 
 ## Feature Importance and Recommendations
-<ul>After exploring the feature importances of our final model we are giving 2 recommendations to nation leaders:
+After exploring the feature importances of our final model we are giving 2 recommendations to nation leaders:
+<ul>
 <li>Invest in Electrical Infrastructure
 <ul class="square">
   <li>Access to electricity proved to be the biggest weight in our predictive model. The more access people have to electricity, the greater the population's life expectancy</li></ul>
