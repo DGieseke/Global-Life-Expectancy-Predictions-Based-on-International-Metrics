@@ -76,8 +76,11 @@ Below you can see a confusion matrix showing the results of our final model.
 
   <b>seamus folder</b> This folder houses Seamus's working documents.
   
-  <b>Exploring Movie Data Project - Slide Deck</b> This file is a slide deck covering our analysis.
+  <b>Predicting Global Life Expectancy - Slide Deck</b> This file is a slide deck covering our analysis.
+
+  <b>EDA and Data Preparation - International Life Expectancy</b> This file contains our data wrangling and exploratory analysis.
+
+  <b>Data Modeling, Testing, and Predictions - International Life Expectancy</b> This file contains all of our models and analysis.
   
-  <b>Final Edit - Movie Data Visualization File</b> This file contains our analyses, code, narrative, and visualizations.
   
   <b>README.md</b> This is the file you are reading now that gives an overview of our project.
