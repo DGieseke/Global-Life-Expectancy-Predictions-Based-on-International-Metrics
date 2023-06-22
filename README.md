@@ -10,7 +10,7 @@ Life expectancies vary over countries globally. With this project we are aiming 
 ## Project and Data Links
 <a href="https://github.com/DGieseke/Exploratory-Data-Analysis-Using-Movie-Data/blob/main/Final%20Edit%20-%20Movie%20Data%20Visualization%20Project.ipynb">Main Project File</a>
 
-<a href="https://github.com/DGieseke/Exploratory-Data-Analysis-Using-Movie-Data/blob/main/Exploring%20Movie%20Data%20Project%20-%20Slide%20Deck%20-%2005.12.2023.pdf">Project Slide Deck</a>
+<a href="https://github.com/DGieseke/Global-Life-Expectancy-Predictions-Based-on-International-Metrics/blob/main/Predicting%20Global%20Life%20Expectancy.pdf">Project Slide Deck</a>
 
 <a href="https://www.kaggle.com/datasets/truecue/worldsustainabilitydataset?select=WorldSustainabilityDataset.csv">Data Source: The World Bank and United Nations' Sustainability Data via Kaggle</a>
 
