@@ -56,22 +56,20 @@ Below you can see a confusion matrix showing the results of our final model.
 ![image](https://github.com/DGieseke/Global-Life-Expectancy-Predictions-Based-on-International-Metrics/assets/32468677/e08972dd-aa25-4970-830b-1203e73da3e4)
 
 ## Feature Importance and Recommendations
-<ul>
-<li>After exploring the feature importances of our final model we are giving 2 recommendations to nation leaders:
+<ul>After exploring the feature importances of our final model we are giving 2 recommendations to nation leaders:
+<li>Invest in Electrical Infrastructure
 <ul class="square">
-  <li>Invest in Electrical Infrastructure</li>
   <li>Access to electricity proved to be the biggest weight in our predictive model. The more access people have to electricity, the greater the population's life expectancy</li></ul>
 <li>Develop Urban Hubs
  <ul class="square">
-   <li>Recommending the Animation genre</li>
-   <li>Specifically an animated movie in June based on the previous explained analysis</li></ul>
+   <li>The higher the percent of an urban population, the better life expectancy outcomes will be.</li>
+   <li>On a macro level, it brings together diverse populations and has been shown to positively contribute to a countries financial growth. This can in itself increase access to daily necessities, and make simple a lot of things that are more strenuous, difficult and potentially dangerous in a rural environment</li></ul>
 </ul>
 
 ## Next Steps
-<li>Partnership with industry leaders?
-<li>Types of animation?
-<li>Where should the money go?
-<li>Social factors?
+<li>Get more granular. What are the specific, best ROI interventions as they relate to our recommendations?
+<li>Gather more data
+<li>Work with developing countries directly
 
 ## Repository Structure
   <b>daniel folder</b> This folder houses Daniel's working documents.
