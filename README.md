@@ -17,11 +17,10 @@ Life expectancies vary over countries globally. With this project we are aiming 
 <a href="https://www.imdb.com/">Data Source: IMDB</a>
 
 ## Business Understanding
-For this project we have assumed Microsoft, a large technology company with an immense amount of capital, has decided to open a movie studio; we have prepared our analyses and recommendations accordingly.  Throughout this project we honed in on data that we believe answers the following for the tech giant:
+For this project we play the role of world health advisors to nation leaders. It should be a foundational goal of all leaders to provide a sufficient quality of life for their citizens. Life expectancy has long been a crucial indicator of the overall health and well-being of the population, and can serve as a measure of a country’s quality of life. There are many factors that contribute to life expectancy:
 <ul>
-  <li>Amount of money to invest to receive the highest return on investment.</li>
-  <li>Genre to invest in to receive the highest audience favorability and return on investment.</li>
-  <li>Optimal time of year for movie releases.</li>
+  <li>It's wealth, education, energy usage, and political governance among other things.</li>
+  <li>Using data provided by The World Bank and the United Nations, we've provided several data-drive strategies to increase life expectancy across the globe.</li>
 </ul>
 
 ## Data Understanding
