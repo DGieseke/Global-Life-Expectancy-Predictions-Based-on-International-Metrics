@@ -8,7 +8,9 @@
 Life expectancies vary over countries globally. With this project we are aiming to create a model that will predict a country's life expectancy at birth based on a variety of factors. Not only is this project focused on building a strong predictive model, this project further aims to look into which country features prove to be the most important when considering life expectancy at birth. This data was sourced from The World Bank and the United Nations via Kaggle.
 
 ## Project and Data Links
-<a href="https://github.com/DGieseke/Exploratory-Data-Analysis-Using-Movie-Data/blob/main/Final%20Edit%20-%20Movie%20Data%20Visualization%20Project.ipynb">Main Project File</a>
+<a href="https://github.com/DGieseke/Global-Life-Expectancy-Predictions-Based-on-International-Metrics/blob/main/Data%20Modeling%2C%20Testing%2C%20and%20Predictions%20-%20International%20Life%20Expectancy.ipynb">Data Modeling, Testing, and Predictions</a>
+
+<a href="https://github.com/DGieseke/Global-Life-Expectancy-Predictions-Based-on-International-Metrics/blob/main/EDA%20and%20Data%20Preparation%20-%20International%20Life%20Expectancy.ipynb">EDA and Data Preparation</a>
 
 <a href="https://github.com/DGieseke/Global-Life-Expectancy-Predictions-Based-on-International-Metrics/blob/main/Predicting%20Global%20Life%20Expectancy.pdf">Project Slide Deck</a>
 
